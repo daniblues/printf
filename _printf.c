@@ -30,7 +30,7 @@ int _printf(const char *format, ...)
 			{	function = get_print_func(format, i + 1);
 				if (function == NULL)
 				{
-					f (format[i + 1] == ' ' && !format[i + 2])
+					f(format[i + 1] == ' ' && !format[i + 2])
 						return (-1);
 					handl_buf(buffer, format[i], ibuf), len++, i--;
 				}
