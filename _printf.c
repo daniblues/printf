@@ -1,7 +1,6 @@
 #include "main.h"
 
-/**
- * _printf - Outputs the formatted string
+/**_printf - Outputs the formatted string
  * @format: input constant
  * Return: size of bufer (success) or -1 if fail
  */
