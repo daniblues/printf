@@ -58,6 +58,7 @@ typedef struct flag_s
 	unsigned char value;
 } flag_t;
 
+void *_calloc(unsigned int nmemb, unsigned int size);
 int _printf(const char *format, ...);
 
 /* Conversion Specifier Functions */
